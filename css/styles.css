@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.card--border {
+  border: 2px solid #00FFB2;
+}
+.card .card__image {
+  width: 100%;
+}
+.card .card__content {
+  padding: 3.125rem;
+}
+.card .card__content .card__header-title {
+  background-color: white;
+  font-weight: 300;
+  font-size: 2.5;
+  padding-bottom: 0.625rem;
+}
+.card .card__content .card__header-title .card__canada-button {
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: grey;
+}
+.card .card__content .card__header-title .card__canada-button--green--button {
+  background-color: #00FFB2;
+}
+.card .card__content .card__paragraph {
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+}
+.card .card__content .card__button {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.625rem;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+.card .card__content .card__button--secondry--button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
